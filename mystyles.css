@@ -1,0 +1,274 @@
+*{
+    margin:0px;
+    padding:0px;
+
+}
+
+body
+{
+}
+ 
+
+.topheader{
+    height:25px;
+    background-color:lightseagreen;
+    padding-top:3px;
+    padding-right:3px;
+}
+
+.header{
+    height:50px;
+    background-color:white;
+  
+}
+
+.row{
+    width:100%;
+    padding-bottom:2px;
+}
+
+.header img{
+
+    width: 49%;
+    height: 50px;
+   
+}
+
+.menubar{
+    height:25px;
+    background-color:grey;
+  
+}
+
+.bodypart{
+    height:250px;
+    background-color:white;
+  
+}
+
+
+
+.loginform{
+    width: 150px;
+    margin: 0 auto auto;
+    border-radius: 1px;
+     
+}
+
+
+.book{
+font-weight:bold;
+background-color: rgb(0, 128, 100);
+color: black;
+text-align: center;
+border-radius: 5px;
+margin-top: 10px;
+padding:1px;
+padding-left: 5px;
+padding-right: 5px;
+width:100px;
+}
+
+.book:hover{
+    background-color: red;
+}
+
+.err{
+
+    color: red;
+    text-align: center;
+    font-weight: bold;
+}
+
+.sub1{
+    text-align: center;
+}
+
+.footer{
+    width:100%;
+    color:white;
+    height:350px;
+    background-color:rgb(0, 0, 0);
+    padding: 20px;
+    padding: 10px 10px;
+    font-weight:none ;
+      
+}
+
+
+.footerform{
+    width: 350px;
+}
+
+.btm{
+
+    background-color: grey;
+    color: white;
+    
+}
+
+
+.part20{
+
+width:20%;
+float:left;
+margin-right: 50px;
+font-size: 15px;
+font-weight:bold;
+
+
+}
+
+.part40{
+
+width:50%;
+float:left;
+float: right;
+margin-right: 50px;
+
+    
+}
+
+.part20 a{
+    text-decoration: none;
+}
+
+
+
+
+.left{
+    float:left;
+}
+
+.right{
+    float:right;
+}
+
+.h1{
+    width:8%;
+    float:left;
+}
+
+.h2{
+    width:15%;
+    float:left;
+    color:blue;
+    padding-top:10px;
+    font-size:25px;
+}
+
+.login{
+
+    text-decoration: none;
+    color: white;
+    padding-bottom: 10px;
+    
+}
+
+.h3{
+    width:5%;
+    float:right;
+    background-color: green;
+    text-align:center;
+    padding:11px;
+    margin-right: 50px;
+    border-radius: 10px;
+    margin-top: 5px;
+    
+    
+
+}
+
+.h3:hover{
+
+    background-color: red;
+}
+
+.menubar ul {
+    width: 100%;
+    list-style-type: none;
+}
+
+.menubar ul li{
+   
+    float: left;
+    
+}
+
+.menubar ul li a{
+
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    padding: 4px;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-right:15px;
+}
+
+.menubar ul li a:hover{
+   background-color:yellow;
+   color:blue;
+}
+
+.sectitle{
+
+    text-align: center;
+    color:balck;
+    font-weight: normal;
+}
+
+
+.courses
+{
+   width: 80%;
+   
+   margin:0 auto auto;
+  
+}
+
+.coursediv{
+
+    width: 10%;
+    border: 1px rgb(0, 0, 0);
+    box-shadow: 3px 6px red;
+    height: 150px;
+    border-radius:10px;
+    margin: 3% 1%;
+    float: left;
+    margin-left:120;
+    margin-right: 80;
+    text-align: center;
+   
+    
+}
+
+.coursediv a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    padding: 45px;
+}
+
+.coursediv img{
+    width: 100%;
+    border-radius:10px;
+   
+}
+
+
+.sectitle1{
+    font-weight: bold;
+    color: rgb(93, 0, 255);
+    width: 80%;
+    margin: 0 auto auto;
+    text-align: center;
+}
+.about{
+    width: 80%;
+    margin: 0 auto auto;
+    text-align: center;
+    font-style: italic;
+    for
+}

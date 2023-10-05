@@ -1,0 +1,108 @@
+<html>
+<head>
+<link rel="stylesheet" href="mystyles.css">
+<title>Web Design </title> 
+
+<script type="text/javascript">
+    function check(){
+         
+        var uname=document.getElementById("uname").value;
+        var pwd=document.getElementById("pwd").value;
+
+        if(uname=='vkedarnath185@gmail.com' && pwd=='Kedar@18k')
+        {
+
+            document.getElementById("form1").action="home.html";
+        }
+        else
+        {
+            document.getElementById("err").innerHTML="You have entered incorrect username or password";
+            return false;
+
+        }
+
+       
+
+    }
+</script>    
+</head>
+
+<body>
+
+<div class="topheader">
+        <div class="left">Mail i'd:- vkedarnath185@gmail.com</div>
+        <div class="right">Insta:- mr_ks_18</div>
+
+        
+</div>
+
+<div class="header">
+   <div class="row">
+    <div class="h1"><img src="logo.png"></div>
+    <div class="h2">KS TRAVELS </div>
+    <div class="h3"><a href="login.html" class="login">Login</a></div>
+
+
+   </div>
+</div>
+
+<div class="menubar">
+<ul>
+
+    <li><a href="#">Home</a></li>
+    <li><a href="#Aboutus">About</a></li>
+    <li><a href="#">Types of Vehicles</a></li>
+    <li><a href="#milestone">Sucess Milestones</a></li>
+</ul>
+</div>
+
+
+<div class="bodypart">
+    <br/>
+<h1 class="sectitle">Login Form</h1>
+<form id="form1" name="form1" class="loginform" onsubmit="return check()">
+Username: <input type="text" id="uname" name="uname" value=""/><br/><br/>
+Password: <input type="password" id="pwd" name="pwd" value=""/><br/><br/>
+<input type="submit" value="login"/>
+
+</form>
+
+<div id="err" class="err"></div>
+</div>
+
+
+<div class="footer">
+
+
+<div class="part20">
+ <h3>What's App Numbers</h3><br/>
+ <a href="#">963584125</a><br/>
+ <a href="#">963584125</a><br/>
+ <a href="#">963584125</a><br/>
+ <a href="#">963584125</a><br/>
+</div>
+
+<div class="part20">
+<h3>Social Media Links</h3><br/>
+<a href="#">963584125</a><br/>
+<a href="#">963584125</a><br/>
+<a href="#">963584125</a><br/>
+<a href="#">963584125</a><br/>
+    </div>
+
+<div class="part40">
+    <h3>Feedback</h3><br/>
+    <form>
+        Email:-<br/>
+        <input type="Email"><br/>
+        Request:-<br/>
+        <textarea rows="10" cols="45"></textarea><br/>
+
+        <input type="submit" class="footerform btm" value="submit">
+    </form>
+</div>
+
+</div>
+  </body>
+
+</html>
